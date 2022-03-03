@@ -2,14 +2,12 @@
 
 const nameUser = prompt()
 
-console.log(nameUser)
 
 
 // Cognome
 
 const surnameUser = prompt()
 
-console.log(surnameUser)
 
 
 
@@ -17,8 +15,13 @@ console.log(surnameUser)
 
 const favouriteColorUser = prompt()
 
-console.log(favouriteColorUser)
 
+
+// Password
+
+console.log(
+    nameUser + surnameUser + favouriteColorUser + "21"
+)
 
 
 
