@@ -19,9 +19,10 @@ const favouriteColorUser = prompt()
 
 // Password
 
-console.log(
-    nameUser + surnameUser + favouriteColorUser + "21"
-)
+const passwordUser = nameUser + surnameUser + favouriteColorUser + "21"
+
+console.log(passwordUser)
 
 
-document.getElementById("demo").innerHTML = "La tua password è: <span><strong>" + nameUser + surnameUser + favouriteColorUser + "21" + "</strong></span>";
+
+document.getElementById("demo").innerHTML = "La tua password è: <span><strong>" + passwordUser + "</strong></span>";
